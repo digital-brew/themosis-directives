@@ -1,0 +1,8 @@
+{
+    "name": "rafflex/themosis-directives",
+    "autoload": {
+        "psr-4": {
+            "Rafflex\\ThemosisDirectives\\": "src/"
+        }
+    }
+}
