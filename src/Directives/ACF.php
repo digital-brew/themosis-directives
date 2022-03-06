@@ -229,10 +229,10 @@ class ACF
             if (Str::contains($expression, ',')) {
                 $expression = Utilities::parse($expression);
 
-                return "<?php if (echo get_field({$expression->get(0)}, 'option')[{$expression->get(1)}]) : ?>";
+                return "<?php if (get_field({$expression->get(0)}, 'option')[{$expression->get(1)}]) : ?>";
             }
 
-            return "<?php if (echo get_field({$expression}, 'option')) : ?>";
+            return "<?php if (get_field({$expression}, 'option')) : ?>";
         });
 
         Blade::directive('isoption', function ($expression) {

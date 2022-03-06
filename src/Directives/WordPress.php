@@ -461,6 +461,20 @@ class WordPress
 
         /*
         |---------------------------------------------------------------------
+        | @action / @filter
+        |---------------------------------------------------------------------
+        */
+
+        Blade::directive('action', function ($expression) {
+            return "<?php do_action({$expression}); ?>";
+        });
+
+        Blade::directive('filter', function ($expression) {
+            return "<?php apply_filters({$expression}); ?>";
+        });
+
+        /*
+        |---------------------------------------------------------------------
         | @thoption
         |---------------------------------------------------------------------
         */
