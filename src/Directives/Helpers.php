@@ -350,7 +350,7 @@ class Helpers
         |---------------------------------------------------------------------
         */
 
-        Blade::directive('global', function ($expression) {
+        Blade::directive('ray', function ($expression) {
             return "<?php ray({$expression}); ?>";
         });
 
