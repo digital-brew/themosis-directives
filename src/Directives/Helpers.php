@@ -350,10 +350,8 @@ class Helpers
         |---------------------------------------------------------------------
         */
 
-        Blade::directive('ray', function ($expression) {
-            $expression = Utilities::parse($expression);
-
-            return <?php ray(p($expression->get(0))); ?>; // phpcs:ignore
+        Blade::directive('global', function ($expression) {
+            return "<?php ray({$expression}); ?>";
         });
 
     }
