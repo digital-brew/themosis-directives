@@ -343,6 +343,18 @@ class Helpers
 
             return '<i class="ico ico-' . Utilities::strip($expression->get(0)) . ' ' . Utilities::strip($expression->get(1)) . '"></i>'; // phpcs:ignore
         });
+        
+        /*
+        |---------------------------------------------------------------------
+        | @ray
+        |---------------------------------------------------------------------
+        */
+
+        Blade::directive('ray', function ($expression) {
+            $expression = Utilities::parse($expression);
+
+            return <?php ray(p($expression->get(0))); ?>; // phpcs:ignore
+        });
 
     }
 }
