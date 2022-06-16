@@ -351,7 +351,7 @@ class Helpers
         */
 
         Blade::directive('ray', function ($expression) {
-            return "<?php ray({$expression}); ?>";
+            return "<?php ray($expression); ?>";
         });
 
     }
