@@ -2,7 +2,7 @@
     "name": "digital-brew/themosis-directives",
     "autoload": {
         "psr-4": {
-            "Rafflex\\ThemosisDirectives\\": "src/"
+            "DigitalBrew\\ThemosisDirectives\\": "src/"
         }
     }
 }

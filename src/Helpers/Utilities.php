@@ -1,6 +1,6 @@
 <?php
 
-namespace Rafflex\ThemosisDirectives\Helpers;
+namespace DigitalBrew\ThemosisDirectives\Helpers;
 
 use Illuminate\Support\Str;
 

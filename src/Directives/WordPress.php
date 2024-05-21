@@ -1,10 +1,10 @@
 <?php
 
-namespace Rafflex\ThemosisDirectives\Directives;
+namespace DigitalBrew\ThemosisDirectives\Directives;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Str;
-use Rafflex\ThemosisDirectives\Helpers\Utilities;
+use DigitalBrew\ThemosisDirectives\Helpers\Utilities;
 
 class WordPress
 {

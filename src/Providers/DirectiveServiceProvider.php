@@ -1,11 +1,11 @@
 <?php
 
-namespace Rafflex\ThemosisDirectives\Providers;
+namespace DigitalBrew\ThemosisDirectives\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Rafflex\ThemosisDirectives\Directives\ACF;
-use Rafflex\ThemosisDirectives\Directives\Helpers;
-use Rafflex\ThemosisDirectives\Directives\WordPress;
+use DigitalBrew\ThemosisDirectives\Directives\ACF;
+use DigitalBrew\ThemosisDirectives\Directives\Helpers;
+use DigitalBrew\ThemosisDirectives\Directives\WordPress;
 
 class DirectiveServiceProvider extends ServiceProvider
 {
